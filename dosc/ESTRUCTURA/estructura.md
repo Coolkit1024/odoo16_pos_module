@@ -410,8 +410,53 @@ static (carpeta)
       static/tests/unit/test_NumberBuffer.js (archivo)
       static/tests/unit/test_PosPopupController.js (archivo)
 
-
 tests (carpeta)
+  tests/__pycache__ (carpeta)
+    tests/__pycache__/__init__.cpython-39.pyc
+    tests/__pycache__/common.cpython-39.pyc
+    tests/__pycache__/test_anglo_saxon.cpython-39.pyc
+    tests/__pycache__/test_frontend.cpython-39.pyc
+    tests/__pycache__/test_js.cpython-39.pyc
+    tests/__pycache__/test_point_of_sale.cpython-39.pyc
+    tests/__pycache__/test_point_of_sale_flow.cpython-39.pyc
+    tests/__pycache__/test_point_of_sale_ui.cpython-39.pyc
+    tests/__pycache__/test_pos_basic_config.cpython-39.pyc
+    tests/__pycache__/test_pos_capture.cpython-39.pyc
+    tests/__pycache__/test_pos_controller.cpython-39.pyc
+    tests/__pycache__/test_pos_margin.cpython-39.pyc
+    tests/__pycache__/test_pos_multiple_receivable_accounts.cpython-39.pyc
+    tests/__pycache__/test_pos_other_currency_config.cpython-39.pyc
+    tests/__pycache__/test_pos_products_with_tax.cpython-39.pyc
+    tests/__pycache__/test_pos_setup.cpython-39.pyc
+    tests/__pycache__/test_pos_simple_invoiced_orders.cpython-39.pyc
+    tests/__pycache__/test_pos_simple_orders.cpython-39.pyc
+    tests/__pycache__/test_pos_stock_account.cpython-39.pyc
+    tests/__pycache__/test_pos_with_fiscal_position.cpython-39.pyc
+    tests/__pycache__/test_report_pos_order.cpython-39.pyc
+    tests/__pycache__/test_res_config_settings.cpython-39.pyc
+  tests/__init__.py
+  tests/common.py
+  tests/test_anglo_saxon.py
+  tests/test_frontend.py
+  tests/test_js.py
+  tests/test_point_of_sale.py
+  tests/test_point_of_sale_flow.py
+  tests/test_point_of_sale_ui.py
+  tests/test_pos_basic_config.py
+  tests/test_pos_capture.py
+  tests/test_pos_controller.py
+  tests/test_pos_margin.py
+  tests/test_pos_multiple_receivable_accounts.py
+  tests/test_pos_other_currency_config.py
+  tests/test_pos_products_with_tax.py
+  tests/test_pos_setup.py
+  tests/test_pos_simple_invoiced_orders.py
+  tests/test_pos_simple_orders.py
+  tests/test_pos_stock_account.py
+  tests/test_pos_with_fiscal_position.py
+  tests/test_report_pos_order.py
+  tests/test_res_config_settings.py
+  
 tools (carpeta)
 views (carpeta)
 wizard (carpeta)
