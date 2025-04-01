@@ -412,52 +412,96 @@ static (carpeta)
 
 tests (carpeta)
   tests/__pycache__ (carpeta)
-    tests/__pycache__/__init__.cpython-39.pyc
-    tests/__pycache__/common.cpython-39.pyc
-    tests/__pycache__/test_anglo_saxon.cpython-39.pyc
-    tests/__pycache__/test_frontend.cpython-39.pyc
-    tests/__pycache__/test_js.cpython-39.pyc
-    tests/__pycache__/test_point_of_sale.cpython-39.pyc
-    tests/__pycache__/test_point_of_sale_flow.cpython-39.pyc
-    tests/__pycache__/test_point_of_sale_ui.cpython-39.pyc
-    tests/__pycache__/test_pos_basic_config.cpython-39.pyc
-    tests/__pycache__/test_pos_capture.cpython-39.pyc
-    tests/__pycache__/test_pos_controller.cpython-39.pyc
-    tests/__pycache__/test_pos_margin.cpython-39.pyc
-    tests/__pycache__/test_pos_multiple_receivable_accounts.cpython-39.pyc
-    tests/__pycache__/test_pos_other_currency_config.cpython-39.pyc
-    tests/__pycache__/test_pos_products_with_tax.cpython-39.pyc
-    tests/__pycache__/test_pos_setup.cpython-39.pyc
-    tests/__pycache__/test_pos_simple_invoiced_orders.cpython-39.pyc
-    tests/__pycache__/test_pos_simple_orders.cpython-39.pyc
-    tests/__pycache__/test_pos_stock_account.cpython-39.pyc
-    tests/__pycache__/test_pos_with_fiscal_position.cpython-39.pyc
-    tests/__pycache__/test_report_pos_order.cpython-39.pyc
-    tests/__pycache__/test_res_config_settings.cpython-39.pyc
-  tests/__init__.py
-  tests/common.py
-  tests/test_anglo_saxon.py
-  tests/test_frontend.py
-  tests/test_js.py
-  tests/test_point_of_sale.py
-  tests/test_point_of_sale_flow.py
-  tests/test_point_of_sale_ui.py
-  tests/test_pos_basic_config.py
-  tests/test_pos_capture.py
-  tests/test_pos_controller.py
-  tests/test_pos_margin.py
-  tests/test_pos_multiple_receivable_accounts.py
-  tests/test_pos_other_currency_config.py
-  tests/test_pos_products_with_tax.py
-  tests/test_pos_setup.py
-  tests/test_pos_simple_invoiced_orders.py
-  tests/test_pos_simple_orders.py
-  tests/test_pos_stock_account.py
-  tests/test_pos_with_fiscal_position.py
-  tests/test_report_pos_order.py
-  tests/test_res_config_settings.py
+    tests/__pycache__/__init__.cpython-39.pyc (archivo)
+    tests/__pycache__/common.cpython-39.pyc (archivo)
+    tests/__pycache__/test_anglo_saxon.cpython-39.pyc (archivo)
+    tests/__pycache__/test_frontend.cpython-39.pyc (archivo)
+    tests/__pycache__/test_js.cpython-39.pyc (archivo)
+    tests/__pycache__/test_point_of_sale.cpython-39.pyc (archivo)
+    tests/__pycache__/test_point_of_sale_flow.cpython-39.pyc (archivo)
+    tests/__pycache__/test_point_of_sale_ui.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_basic_config.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_capture.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_controller.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_margin.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_multiple_receivable_accounts.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_other_currency_config.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_products_with_tax.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_setup.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_simple_invoiced_orders.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_simple_orders.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_stock_account.cpython-39.pyc (archivo)
+    tests/__pycache__/test_pos_with_fiscal_position.cpython-39.pyc (archivo)
+    tests/__pycache__/test_report_pos_order.cpython-39.pyc (archivo)
+    tests/__pycache__/test_res_config_settings.cpython-39.pyc (archivo)
+  tests/__init__.py (archivo)
+  tests/common.py (archivo)
+  tests/test_anglo_saxon.py (archivo)
+  tests/test_frontend.py (archivo)
+  tests/test_js.py (archivo)
+  tests/test_point_of_sale.py (archivo)
+  tests/test_point_of_sale_flow.py (archivo)
+  tests/test_point_of_sale_ui.py (archivo)
+  tests/test_pos_basic_config.py (archivo)
+  tests/test_pos_capture.py (archivo)
+  tests/test_pos_controller.py (archivo)
+  tests/test_pos_margin.py (archivo)
+  tests/test_pos_multiple_receivable_accounts.py (archivo)
+  tests/test_pos_other_currency_config.py (archivo)
+  tests/test_pos_products_with_tax.py (archivo)
+  tests/test_pos_setup.py (archivo)
+  tests/test_pos_simple_invoiced_orders.py (archivo)
+  tests/test_pos_simple_orders.py (archivo)
+  tests/test_pos_stock_account.py (archivo)
+  tests/test_pos_with_fiscal_position.py (archivo)
+  tests/test_report_pos_order.py (archivo)
+  tests/test_res_config_settings.py (archivo)
   
 tools (carpeta)
+  tools/__pycache__ carpeta)
+    tools/__pycache__/__init__.cpython-39.pyc
+    tools/__pycache__/pos_order_data.cpython-39.pyc
+  tools/posbox (carpeta)
+    tools/posbox/configuration (carpeta)
+      tools/posbox/configuration/connect_to_server_wifi.sh (archivo)
+      tools/posbox/configuration/connect_to_wifi.sh (archivo)
+      tools/posbox/configuration/keep_wifi_alive.sh (archivo)
+      tools/posbox/configuration/led_status.sh (archivo)
+      tools/posbox/configuration/odoo.conf (archivo)
+      tools/posbox/configuration/posbox_update.sh (archivo)
+      tools/posbox/configuration/rename_iot.sh (archivo)
+      tools/posbox/configuration/setup_ramdisks.sh (archivo)
+      tools/posbox/configuration/upgrade.sh (archivo)
+      tools/posbox/configuration/wireless_ap.sh (archivo)
+    tools/posbox/overwrite_after_init (carpeta)
+      tools/posbox/overwrite_after_init/etc (carpeta)
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/
+      tools/posbox/overwrite_after_init/home (carpeta)
+        
+      tools/posbox/overwrite_after_init/usr (carpeta)
+      tools/posbox/overwrite_after_init/var (carpeta)
+    tools/posbox/overwrite_before_init (carpeta)
+    tools/posbox/.gitignore (archivo)
+    tools/posbox/posbox_create_image.sh (archivo)
+  tools/__init__.py (archivo)
+  tools/pos_order_data.py (archivo)
+
+
 views (carpeta)
 wizard (carpeta)
 __init__.py (archivo)
