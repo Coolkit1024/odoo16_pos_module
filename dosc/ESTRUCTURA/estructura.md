@@ -475,26 +475,42 @@ tools (carpeta)
       tools/posbox/configuration/wireless_ap.sh (archivo)
     tools/posbox/overwrite_after_init (carpeta)
       tools/posbox/overwrite_after_init/etc (carpeta)
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
-         tools/posbox/overwrite_after_init/etc/
+         tools/posbox/overwrite_after_init/etc/cron.daily (carpeta)
+           tools/posbox/overwrite_after_init/etc/cron.daily/odoo (archivo)           
+         tools/posbox/overwrite_after_init/etc/cups (carpeta)
+           tools/posbox/overwrite_after_init/etc/cups/cups-files.conf (archivo)
+           tools/posbox/overwrite_after_init/etc/cups/cupsd.conf (archivo)
+         tools/posbox/overwrite_after_init/etc/default (carpeta)
+           tools/posbox/overwrite_after_init/etc/default/hostapd (archivo)
+           tools/posbox/overwrite_after_init/etc/default/ifplugd (archivo)
+         tools/posbox/overwrite_after_init/etc/dhcp (carpeta)
+           tools/posbox/overwrite_after_init/etc/dhcp/dhcpd.conf (archivo)
+         tools/posbox/overwrite_after_init/etc/hostapd (carpeta)
+           tools/posbox/overwrite_after_init/etc/hostapd/hostapd.conf (archivo)
+         tools/posbox/overwrite_after_init/etc/lightdm (carpeta)
+           tools/posbox/overwrite_after_init/etc/lightdm/lightdm.conf (archivo)
+         tools/posbox/overwrite_after_init/etc/network (carpeta)
+           tools/posbox/overwrite_after_init/etc/network/interfaces (archivo)
+         tools/posbox/overwrite_after_init/etc/nginx (carpeta)
+           tools/posbox/overwrite_after_init/etc/nginx/interfaces (archivo)
+         tools/posbox/overwrite_after_init/etc/ssl (carpeta)
+           tools/posbox/overwrite_after_init/etc/ssl/certs (carpeta)
+             tools/posbox/overwrite_after_init/etc/ssl/certs/nginx-cert.crt (archivo)
+           tools/posbox/overwrite_after_init/etc/ssl/private (carpeta)
+             tools/posbox/overwrite_after_init/etc/ssl/private/nginx-cert.key (archivo)
+         tools/posbox/overwrite_after_init/etc/X11 (carpeta)
+           tools/posbox/overwrite_after_init/etc/X11/xorg.conf (archivo)
+         tools/posbox/overwrite_after_init/etc/dhcpcd.conf (archivo)
+         tools/posbox/overwrite_after_init/etc/dnsmasq.conf (archivo)
+         tools/posbox/overwrite_after_init/etc/fstab (archivo)
+         tools/posbox/overwrite_after_init/etc/ld.so.preload (archivo)
+         tools/posbox/overwrite_after_init/etc/rc.local (archivo)
+         tools/posbox/overwrite_after_init/etc/resolv.conf.tail (archivo)
       tools/posbox/overwrite_after_init/home (carpeta)
         
       tools/posbox/overwrite_after_init/usr (carpeta)
       tools/posbox/overwrite_after_init/var (carpeta)
+      
     tools/posbox/overwrite_before_init (carpeta)
     tools/posbox/.gitignore (archivo)
     tools/posbox/posbox_create_image.sh (archivo)
