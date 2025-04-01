@@ -310,28 +310,27 @@ static (carpeta)
         static/src/xml/Misc/NotificationSound.xml (archivo)
         static/src/xml/Misc/SearchBar.xml (archivo)
       static/src/xml/Popups (carpeta)
-        static/src/xml/Popups/CashMovePopup.xml
-        static/src/xml/Popups/CashMoveReceipt.xml
-        static/src/xml/Popups/CashOpeningPopup.xml
-        static/src/xml/Popups/ClosePosPopup.xml
-        static/src/xml/Popups/ConfirmPopup.xml
-        static/src/xml/Popups/ControlButtonPopup.xml
-        static/src/xml/Popups/EditListInput.xml
-        static/src/xml/Popups/EditListPopup.xml
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        static/src/xml/Popups/
-        
+        static/src/xml/Popups/CashMovePopup.xml (archivo)
+        static/src/xml/Popups/CashMoveReceipt.xml (archivo)
+        static/src/xml/Popups/CashOpeningPopup.xml (archivo)
+        static/src/xml/Popups/ClosePosPopup.xml (archivo)
+        static/src/xml/Popups/ConfirmPopup.xml (archivo)
+        static/src/xml/Popups/ControlButtonPopup.xml (archivo)
+        static/src/xml/Popups/EditListInput.xml (archivo)
+        static/src/xml/Popups/EditListPopup.xml (archivo)
+        static/src/xml/Popups/ErrorBarcodePopup.xml (archivo)
+        static/src/xml/Popups/ErrorPopup.xml (archivo)
+        static/src/xml/Popups/ErrorTracebackPopup.xml (archivo)
+        static/src/xml/Popups/MoneyDetailsPopup.xml (archivo)
+        static/src/xml/Popups/NumberPopup.xml (archivo)
+        static/src/xml/Popups/OfflineErrorPopup.xml (archivo)
+        static/src/xml/Popups/OrderImportPopup.xml (archivo)
+        static/src/xml/Popups/PosPopupController.xml (archivo)
+        static/src/xml/Popups/ProductConfiguratorPopup.xml (archivo)
+        static/src/xml/Popups/ProductInfoPopup.xml (archivo)
+        static/src/xml/Popups/SelectionPopup.xml (archivo)
+        static/src/xml/Popups/TextAreaPopup.xml (archivo)
+        static/src/xml/Popups/TextInputPopup.xml (archivo)
       
       static/src/xml/Screens (carpeta)
       static/src/xml/Chrome.xml (archivo)
