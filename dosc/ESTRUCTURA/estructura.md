@@ -287,7 +287,56 @@ static (carpeta)
       static/src/scss/pos_variables_extra.scss (archivo)
     
     static/src/sounds (carpeta)
+      static/src/sounds/bell.wav
+      static/src/sounds/error.wav
+      
     static/src/xml (carpeta)
+      static/src/xml/ChromeWidgets (carpeta)
+        static/src/xml/ChromeWidgets/CashierName.xml (archivo)
+        static/src/xml/ChromeWidgets/CashMoveButton.xml (archivo)
+        static/src/xml/ChromeWidgets/CustomerFacingDisplayButton.xml (archivo)
+        static/src/xml/ChromeWidgets/DebugWidget.xml (archivo)
+        static/src/xml/ChromeWidgets/HeaderButton.xml (archivo)
+        static/src/xml/ChromeWidgets/ProxyStatus.xml (archivo)
+        static/src/xml/ChromeWidgets/SaleDetailsButton.xml (archivo)
+        static/src/xml/ChromeWidgets/SyncNotification.xml (archivo)
+        static/src/xml/ChromeWidgets/TicketButton.xml (archivo)
+      static/src/xml/CustomerFacingDisplay (carpeta)
+        static/src/xml/CustomerFacingDisplay/CustomerFacingDisplayOrder.xml (archivo)        
+      static/src/xml/Misc (carpeta)
+        static/src/xml/Misc/CurrencyAmount.xml (archivo)
+        static/src/xml/Misc/Draggable.xml (archivo)
+        static/src/xml/Misc/MobileOrderWidget.xml (archivo)
+        static/src/xml/Misc/NotificationSound.xml (archivo)
+        static/src/xml/Misc/SearchBar.xml (archivo)
+      static/src/xml/Popups (carpeta)
+        static/src/xml/Popups/CashMovePopup.xml
+        static/src/xml/Popups/CashMoveReceipt.xml
+        static/src/xml/Popups/CashOpeningPopup.xml
+        static/src/xml/Popups/ClosePosPopup.xml
+        static/src/xml/Popups/ConfirmPopup.xml
+        static/src/xml/Popups/ControlButtonPopup.xml
+        static/src/xml/Popups/EditListInput.xml
+        static/src/xml/Popups/EditListPopup.xml
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        static/src/xml/Popups/
+        
+      
+      static/src/xml/Screens (carpeta)
+      static/src/xml/Chrome.xml (archivo)
+      static/src/xml/Notification.xml (archivo)
+      static/src/xml/SaleDetailsReport.xml (archivo)
     
 
     
