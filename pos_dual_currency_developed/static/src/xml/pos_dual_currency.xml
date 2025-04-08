@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_backend" name="pos_dual_currency_assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_dual_currency/static/src/js/models.js"></script>
+            <script type="text/javascript" src="/pos_dual_currency/static/src/js/screens.js"></script>
+        </xpath>
+    </template>
+
+    <template id="dual_currency_product_price" name="Dual Currency Product Price">
+        <div class="dual-currency-price" t-field="product.dual_currency_price"/>
+    </template>
+</odoo>
