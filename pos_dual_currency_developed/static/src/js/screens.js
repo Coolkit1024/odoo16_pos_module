@@ -1,27 +1,31 @@
 odoo.define('pos_dual_currency.screens', function (require) {
     "use strict";
 
-    var screens = require('point_of_sale.screens');
-    var PosBaseWidget = require('point_of_sale.BaseWidget');
-    var core = require('web.core');
-    var _t = core._t;
+    const models = require('point_of_sale.models');
+    const screens = require('point_of_sale.screens');
 
-    screens.ProductScreenWidget.include({
-        renderElement: function () {
-            this._super();
-            this.$('.product-list-container').each(function (index, el) {
-                var product_id = $(el).data('product-id');
-                var product = self.pos.db.get_product_by_id(product_id);
-                if (product) {
-                    var price = product.display_price;
-                    var dual_currency_price = product.dual_currency_price || 0;
-                    $(el).find('.product-price').after(
-                        '<span class="dual-currency-price">' + _t('Dual Currency Price: ') + dual_currency_price.toFixed(2) + '</span>'
-                    );
-                }
-            });
+    // Extender Orderline para incluir precios secundarios
+    const _super_orderline = models.Orderline.prototype;
+    models.Orderline = models.Orderline.extend({
+        initialize: function (attr, options) {
+            _super_orderline.initialize.call(this, attr, options);
+            if (this.pos.config.enable_dual_currency) {
+                this.secondary_price = (this.price / this.pos.secondary_currency_rate).toFixed(2);
+                this.secondary_currency = this.pos.secondary_currency;
+            }
         },
     });
 
-    return screens;
+    // Extender ReceiptScreen para mostrar totales secundarios
+    const ReceiptScreen = screens.ReceiptScreenWidget;
+    screens.ReceiptScreenWidget.include({
+        render_receipt: function () {
+            this._super();
+            if (this.pos.config.enable_dual_currency) {
+                const order = this.pos.get_order();
+                order.secondary_total = (order.get_total_with_tax() / this.pos.secondary_currency_rate).toFixed(2);
+                order.secondary_currency = this.pos.secondary_currency;
+            }
+        },
+    });
 });
