@@ -4,6 +4,7 @@
         <xpath expr="." position="inside">
             <script type="text/javascript" src="/pos_dual_currency/static/src/js/models.js"></script>
             <script type="text/javascript" src="/pos_dual_currency/static/src/js/screens.js"></script>
+            <template id="dual_currency_templates" src="/pos_dual_currency/static/src/xml/dual_currency_templates.xml"/>
         </xpath>
     </template>
 </odoo>
