@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="dual_currency_orderline" inherit_id="point_of_sale.Orderline">
+        <xpath expr=".//div[@class='orderline']" position="inside">
+            <!-- Mostrar precios en moneda secundaria -->
+            <div class="dual_currency">
+                <t t-if="line.secondary_price">
+                    <span><t t-esc="line.secondary_price"/> <t t-esc="line.secondary_currency"/></span>
+                </t>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="dual_currency_receipt" inherit_id="point_of_sale.Receipt">
+        <xpath expr="//div[@class='receipt-total']" position="before">
+            <!-- Mostrar totales en moneda secundaria -->
+            <div class="receipt-total-dual-currency">
+                <span>Total en <t t-esc="order.secondary_currency"/>:</span>
+                <span><t t-esc="order.secondary_total"/></span>
+            </div>
+        </xpath>
+    </template>
+</odoo>
